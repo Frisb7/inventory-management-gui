@@ -2,9 +2,13 @@
 Simple inventory management with GUI using Tkinter
 
 Requirements : 
+
 1.Mysql - https://dev.mysql.com/downloads/installer/ or use https://chocolatey.org/ (for help https://youtu.be/CS6o_0j1QdE)
+
 2.Mysql connector for python - https://dev.mysql.com/downloads/connector/python/ or 'pip install mysql-connector-python'
+
 3.Python(3.8 recommend) - https://www.python.org/downloads/
+
 
 After getting all the requirements
 
