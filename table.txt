@@ -1,0 +1,36 @@
+database : INVENTORY
+tables: INVENRORY, USER
+------------create database inventory
+------------use inventory
+
+1st table : INVENTORY
+structure : itm_id | name | stock | avaib | cost
+------------create table inventory(itm_id varchar(5) ,name varchar(25),stock int(10),avaib char(1),cost int(10));
+example values :
+------------Insert into inventory values('1','pen',669,'y',10);
+------------Insert into inventory values('2','tissue',115,'y',100);
+------------Insert into inventory values('3','soap',69,'y',65);
+------------Insert into inventory values('4','shampo',200,'y',75);
+------------Insert into inventory values('5','battery',0,'n',30);
+------------Insert into inventory values('6','knife',0,'n',200);
+------------Insert into inventory values('7','LED light',339,'y',100);
+------------Insert into inventory values('8','chocolate',700,'y',35);
+------------Insert into inventory values('9','printer',50,'y',7700);
+------------Insert into inventory values('10','printer ink',50,'y',193 );
+------------Insert into inventory values('11','clear file',78,'y',50);
+------------Insert into inventory values('12','color pencil',56,'y',45);
+------------Insert into inventory values('13','color paint',90,'y',75);
+------------Insert into inventory values('14','water bottle',0,'n',100);
+------------Insert into inventory values('15','notebook',408,'y',45);
+------------Insert into inventory values('16','toothpaste',57,'y',60);
+------------Insert into inventory values('17','toothbrushes',0,'n',40);
+------------Insert into inventory values('18','whitener',123,'y',35);
+------------Insert into inventory values('19','scale',43,'y',25);
+------------Insert into inventory values('20','magnifying glass',0,'n',55);
+
+2nd table : USER
+structure : username | password | admin
+------------create table user(username varchar(16),password varchar(15),admin char(1));
+example values :
+------------insert into user values('a','a','y');
+------------insert into user values('q','q','n');
