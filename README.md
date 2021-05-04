@@ -1,5 +1,5 @@
 # simple-inventory-management-gui
-Simple inventory management with GUI using Tkinter
+Simple inventory management system (with GUI) writen in python using Tkinter.
 
 Requirements : 
 
