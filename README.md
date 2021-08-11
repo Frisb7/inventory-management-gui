@@ -1,7 +1,7 @@
 # simple-inventory-management-gui
 Simple inventory management system (with GUI) writen in python using Tkinter.
 
-Requirements : 
+# Requirements : 
 
 1.Mysql - https://dev.mysql.com/downloads/installer/
                               OR
@@ -17,7 +17,7 @@ use https://chocolatey.org/ (for help https://youtu.be/CS6o_0j1QdE)
 3.Python(3.8 recommend) - https://www.python.org/downloads/
 
 
-After getting all the requirements
+# After getting all the requirements:
 
 Step 1 : run mysqlsetup.py
          user : admin, password : admin
